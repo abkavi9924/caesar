@@ -3,7 +3,7 @@
 // Function to encrypt the message using Caesar
 void caesarEnc(char message[], int shift) {
     int i;
-    char ch;
+    char chr;
     for(i = 0; message[i] != '\0'; ++i) {
         chr = message[i];
         // Encrypt uppercase letters
